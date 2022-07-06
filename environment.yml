@@ -1,17 +1,10 @@
-name: RMS
+name: base
 channels:
-        - defaults
-        - conda-forge
-        - menpo
+  - conda-forge
 dependencies:
-        - python=2.7
-        - dlib=18.18
-        - pip
-        - pip:
-                - opencv-python==3.4.2.17
-                - scipy
-                - matplotlib
-                - scikit-learn
-                - jupyter
-                - opencv-contrib-python==3.4.2.17
-                - cmake
+  - python
+  - matplotlib
+  - opencv
+  - pip
+  - pip:
+    - opencv-contrib-python

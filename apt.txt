@@ -1,0 +1,4 @@
+# these files are needed only for mybinder or docker build
+ffmpeg
+libsm6
+libxext6
